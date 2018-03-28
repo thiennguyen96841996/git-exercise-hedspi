@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :image_comments
+  resources :images
+  resources :images
   get 'static_pages/home'
 
   devise_for :users
